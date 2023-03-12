@@ -64,6 +64,11 @@ Slidev is a slides maker and presenter designed for developers, consist of the f
 <br>
 <br>
 
+<div style="position: fixed; bottom: 0; right: 0;">
+  <span @click="$slidev.nav.next" class="px-2 py-1 rounded cursor-pointer text-black hover:bg-white hover:bg-opacity-10">
+    Next Page<carbon:arrow-right class="inline"/>
+  </span>
+</div>
 
 <!--
 You can have `style` tag in markdown to override the style for the current page.
@@ -110,7 +115,11 @@ section 计划
 ## 待完成工作
 - [ ]  强化遗传算法的实现
 - [ ]  算法间的比对
----
+<div style="position: fixed; bottom: 0; right: 0;">
+  <span @click="$slidev.nav.next" class="px-2 py-1 rounded cursor-pointer text-black hover:bg-white hover:bg-opacity-10">
+    Next Page<carbon:arrow-right class="inline"/>
+  </span>
+</div>
 
 ---
 
